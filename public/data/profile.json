@@ -1,0 +1,61 @@
+{
+    "name": "Utkarsh Kumar",
+
+    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Utkarsh Kumar",
+            "localized_name_stylized": " [[Utkarsh {{Kumar}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Backend Developer",
+                "Frontend Developer",
+                "DevOps Engineer",
+                "UX Designer"
+            ],
+            "name_pronunciation_ipa": "/ʊt̪kərʂ kuːmɑːr/",
+            "name_pronunciation_audio_url": "audio/Utkarsh Kumar.mp3"
+        },
+        "es": {
+            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "roles": [
+                "Desarrollador Backend",
+                "Desarrollador Frontend",
+                "Ingeniero DevOps",
+                "Diseñador UX"
+            ]
+        },
+        "hi": {
+            "localized_name": "उत्कर्ष कुमार",
+            "localized_name_stylized": "{{उत्कर्ष}} कुमार",
+            "status_message_available_for_freelance": "फ्रीलांस के लिए उपलब्ध!",
+            "roles": [
+                "बैकएंड डेवलपर",
+                "फ्रंटएंड डेवलपर",
+                "डेवऑप्स इंजीनियर",
+                "यूएक्स डिजाइनर"
+            ],
+            "name_pronunciation_ipa": "/ʊt̪kərʂ kuːmɑːr/",
+            "name_pronunciation_audio_url": "audio/Utkarsh Kumar.mp3"
+        },
+        "sa": {
+            "localized_name": "उत्कर्षः कुमारः",
+            "localized_name_stylized": "{{उत्कर्षः}} कुमारः",
+            "status_message_available_for_freelance": "स्वतन्त्रकार्याय उपलब्धः!",
+            "roles": [
+                "पृष्ठभूमि-विकासकः",
+                "अग्रभूमि-विकासकः",
+                "देवोप्स्-अभियन्ता",
+                "यूएक्स-रचनाकारः"
+            ],
+            "name_pronunciation_ipa": "/ʊt̪kərʂ kuːmɑːr/",
+            "name_pronunciation_audio_url": "audio/Utkarsh Kumar.mp3"
+        }
+    }
+}
