@@ -1,0 +1,387 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "hi": {
+                "title_short": "हाल का जीवन",
+                "title_short_nav": "अपडेट्स",
+                "title_long_prefix": "मेरे देखें",
+                "title_long": "हाल के {{अपडेट्स}}"
+            },
+            "sa": {
+                "title_short": "अनन्तरजीवनम्",
+                "title_short_nav": "सूचनाः",
+                "title_long_prefix": "मम पश्यतु",
+                "title_long": "सद्याः {{सूचनाः}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "05+",
+                            "text": "Projects Completed"
+                        },
+                        "hi": {
+                            "text": "पूर्ण परियोजनाएँ"
+                        },
+                        "sa": {
+                            "text": "समापितप्रकल्पाः"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-star",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "50+",
+                            "text": "GitHub Contributions"
+                        },
+                        "hi": {
+                            "text": "GitHub योगदान"
+                        },
+                        "sa": {
+                            "text": "GitHub योगदानानि"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-globe",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "03",
+                            "text": "Programming Languages"
+                        },
+                        "hi": {
+                            "text": "प्रोग्रामिंग भाषाएँ"
+                        },
+                        "sa": {
+                            "text": "प्रोग्रामिंगभाषाः"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "02",
+                            "text": "Open-source contributions"
+                        },
+                        "hi": {
+                            "text": "ओपन-सोर्स योगदान"
+                        },
+                        "sa": {
+                            "text": "मुक्तस्रोतयोगदानानि"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "B.Tech",
+                            "text": "Computer Science Student"
+                        },
+                        "hi": {
+                            "text": "कंप्यूटर विज्ञान छात्र"
+                        },
+                        "sa": {
+                            "text": "संगणकविज्ञानछात्रः"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "10,000+",
+                            "text": "Lines of code written"
+                        },
+                        "hi": {
+                            "text": "लिखित कोड की पंक्तियाँ"
+                        },
+                        "sa": {
+                            "text": "लिखिताः कोडपङ्क्तयः"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Always",
+                            "text": "Passion for coding"
+                        },
+                        "hi": {
+                            "title": "सदैव",
+                            "text": "कोडिंग का जुनून"
+                        },
+                        "sa": {
+                            "title": "सदैव",
+                            "text": "कोडनस्य उत्साहः"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Recent {{Updates}}" },
+                "hi": { "title": "हाल के {{अपडेट्स}}" },
+                "sa": { "title": "सद्याः {{सूचनाः}}" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2025, "month": 5},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Software Developer}} Internship",
+                            "province": "Remote",
+                            "country": "India",
+                            "institution": "Tech Solutions Pvt. Ltd.",
+                            "text": "Currently working as a Software Developer Intern, gaining hands-on experience in full-stack web development. Working on real-world projects and learning industry best practices.",
+                            "list": [
+                                "Full-stack web development with React and Node.js",
+                                "Database design and management",
+                                "REST API development and integration",
+                                "Agile development methodologies"
+                            ]
+                        },
+                        "hi": {
+                            "title": "{{सॉफ्टवेयर डेवलपर}} इंटर्नशिप",
+                            "province": "रिमोट",
+                            "country": "भारत",
+                            "institution": "टेक सॉल्यूशन्स प्राइवेट लिमिटेड",
+                            "text": "वर्तमान में सॉफ्टवेयर डेवलपर इंटर्न के रूप में काम कर रहा हूँ, फुल-स्टैक वेब डेवलपमेंट में व्यावहारिक अनुभव प्राप्त कर रहा हूँ। वास्तविक दुनिया की परियोजनाओं पर काम करना और उद्योग की सर्वोत्तम प्रथाओं को सीखना।",
+                            "list": [
+                                "React और Node.js के साथ फुल-स्टैक वेब डेवलपमेंट",
+                                "डेटाबेस डिजाइन और प्रबंधन",
+                                "REST API विकास और एकीकरण",
+                                "एजाइल डेवलपमेंट मेथडोलॉजी"
+                            ]
+                        },
+                        "sa": {
+                            "title": "{{सॉफ्टवेयर विकासक}} प्रशिक्षणम्",
+                            "province": "दूरस्थः",
+                            "country": "भारतः",
+                            "institution": "टेक समाधान प्राइवेट लिमिटेड",
+                            "text": "वर्तमाने सॉफ्टवेयरविकासकप्रशिक्षार्थिरूपेण कार्यं कुर्वन्, फुल-स्टैक जालविकासे व्यावहारिकानुभवं प्राप्नुवन्। वास्तविकविश्वप्रकल्पेषु कार्यं कुर्वन् उद्योगस्य श्रेष्ठप्रथाः च अधीयानः।",
+                            "list": [
+                                "React Node.js च सह फुल-स्टैक जालविकासः",
+                                "डेटाबेसरचना प्रबन्धनं च",
+                                "REST API विकासः समाकलनं च",
+                                "एजाइल विकासपद्धतयः"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2024, "month": 12},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Completed {{College Project}} - E-commerce Website",
+                            "province": "Gurugram",
+                            "country": "India",
+                            "institution": "Maharishi Dayanand University",
+                            "text": "Successfully developed a full-featured e-commerce website as part of my college curriculum. The project helped me understand real-world web development challenges and solutions.",
+                            "list": [
+                                "Built with React.js frontend and Node.js backend",
+                                "Implemented user authentication and authorization",
+                                "Integrated payment gateway",
+                                "Designed responsive UI with Bootstrap"
+                            ]
+                        },
+                        "hi": {
+                            "title": "पूरी की {{कॉलेज परियोजना}} - ई-कॉमर्स वेबसाइट",
+                            "province": "गुरुग्राम",
+                            "country": "भारत",
+                            "institution": "महर्षि दयानन्द विश्वविद्यालय",
+                            "text": "अपने कॉलेज पाठ्यक्रम के हिस्से के रूप में एक पूर्ण सुविधा युक्त ई-कॉमर्स वेबसाइट सफलतापूर्वक विकसित की। इस परियोजना ने मुझे वास्तविक दुनिया की वेब डेवलपमेंट चुनौतियों और समाधानों को समझने में मदद की।",
+                            "list": [
+                                "React.js फ्रंटएंड और Node.js बैकएंड के साथ निर्मित",
+                                "उपयोगकर्ता प्रमाणीकरण और प्राधिकरण लागू किया",
+                                "भुगतान गेटवे एकीकृत किया",
+                                "Bootstrap के साथ उत्तरदायी UI डिजाइन किया"
+                            ]
+                        },
+                        "sa": {
+                            "title": "समापितः {{महाविद्यालयप्रकल्पः}} - ई-वाणिज्यजालस्थानम्",
+                            "province": "गुरुग्राम",
+                            "country": "भारतः",
+                            "institution": "महर्षिदयानन्दविश्वविद्यालयः",
+                            "text": "मम महाविद्यालयपाठ्यक्रमस्य अंशरूपेण पूर्णलक्षणयुक्तम् ई-वाणिज्यजालस्थानं सफलतया विकसितवान्। प्रकल्पः माम् वास्तविकविश्वजालविकासआव्हानानां समाधानानां च बोधयितुं साहाय्यं कृतवान्।",
+                            "list": [
+                                "React.js अग्रभूमिः Node.js पृष्ठभूमिः च सह निर्मितम्",
+                                "उपयोक्ताप्रमाणीकरणं प्राधिकारणं च कार्यान्वितम्",
+                                "भुगतानद्वारं समाकलितम्",
+                                "Bootstrap सह उत्तरदायी UI रचितम्"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2023, "month": 8},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Learned {{React.js}} Framework",
+                            "province": "",
+                            "country": "",
+                            "institution": "Self Learning",
+                            "text": "Mastered React.js framework through online courses and building practical projects. Gained expertise in component-based architecture and state management.",
+                            "list": [
+                                "Component-based architecture",
+                                "State management with React Hooks",
+                                "Routing with React Router",
+                                "Integration with REST APIs"
+                            ]
+                        },
+                        "hi": {
+                            "title": "सीखा {{React.js}} फ्रेमवर्क",
+                            "province": "",
+                            "country": "",
+                            "institution": "स्व-अध्ययन",
+                            "text": "ऑनलाइन पाठ्यक्रमों और व्यावहारिक परियोजनाओं के निर्माण के माध्यम से React.js फ्रेमवर्क में महारत हासिल की। कंपोनेंट-आधारित आर्किटेक्चर और स्टेट प्रबंधन में विशेषज्ञता प्राप्त की।",
+                            "list": [
+                                "कंपोनेंट-आधारित आर्किटेक्चर",
+                                "React Hooks के साथ स्टेट प्रबंधन",
+                                "React Router के साथ रूटिंग",
+                                "REST APIs के साथ एकीकरण"
+                            ]
+                        },
+                        "sa": {
+                            "title": "अधीतम् {{React.js}} फ्रेमवर्क",
+                            "province": "",
+                            "country": "",
+                            "institution": "स्वाध्यायः",
+                            "text": "ऑनलाइनपाठ्यक्रमैः व्यावहारिकप्रकल्पनिर्माणैः च मार्गैः React.js फ्रेमवर्के निपुणतां प्राप्तवान्। घटकाधारितस्थापत्ये अवस्थाप्रबन्धने च विशेषज्ञताम् अर्जितवान्।",
+                            "list": [
+                                "घटकाधारितस्थापत्यम्",
+                                "React Hooks सह अवस्थाप्रबन्धनम्",
+                                "React Router सह मार्गनिर्देशनम्",
+                                "REST APIs सह समाकलनम्"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {"year": 2022, "month": 8},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Started {{B.Tech CSE}} Program",
+                            "province": "Gurugram",
+                            "country": "Haryana",
+                            "institution": "Maharishi Dayanand University",
+                            "text": "Began my Bachelor of Technology in Computer Science and Engineering. Excited to learn about algorithms, data structures, software engineering, and modern computing technologies.",
+                            "list": [
+                                "Computer Science and Engineering program",
+                                "Focus on algorithms and data structures",
+                                "Software engineering principles",
+                                "Web and mobile development"
+                            ]
+                        },
+                        "hi": {
+                            "title": "शुरू किया {{बी.टेक सीएसई}} कार्यक्रम",
+                            "province": "गुरुग्राम",
+                            "country": "हरियाणा",
+                            "institution": "महर्षि दयानन्द विश्वविद्यालय",
+                            "text": "कंप्यूटर विज्ञान और इंजीनियरिंग में बैचलर ऑफ टेक्नोलॉजी शुरू किया। एल्गोरिदम, डेटा संरचनाओं, सॉफ्टवेयर इंजीनियरिंग और आधुनिक कंप्यूटिंग प्रौद्योगिकियों के बारे में सीखने के लिए उत्साहित।",
+                            "list": [
+                                "कंप्यूटर विज्ञान और इंजीनियरिंग कार्यक्रम",
+                                "एल्गोरिदम और डेटा संरचनाओं पर ध्यान",
+                                "सॉफ्टवेयर इंजीनियरिंग सिद्धांत",
+                                "वेब और मोबाइल डेवलपमेंट"
+                            ]
+                        },
+                        "sa": {
+                            "title": "आरब्धः {{बी.टेक CSE}} कार्यक्रमः",
+                            "province": "गुरुग्राम",
+                            "country": "हरियाणा",
+                            "institution": "महर्षिदयानन्दविश्वविद्यालयः",
+                            "text": "संगणकविज्ञाने अभियान्त्रिकायां च बैचलर ऑफ टेक्नोलॉजी आरब्धवान्। अल्गोरिद्मान्, डेटासंरचनाः, सॉफ्टवेयरअभियान्त्रिकां आधुनिकसंगणनप्रौद्योगिकीः च अधिगन्तुम् उत्साहितः।",
+                            "list": [
+                                "संगणकविज्ञानअभियान्त्रिकाकार्यक्रमः",
+                                "अल्गोरिद्मेषु डेटासंरचनासु च केन्द्रीकरणम्",
+                                "सॉफ्टवेयरअभियान्त्रिकासिद्धान्ताः",
+                                "जालमोबाइलविकासः च"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

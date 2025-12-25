@@ -1,0 +1,344 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Utkarsh Kumar!}}"
+            },
+            "hi": {
+                "title_short": "स्वागत है!",
+                "title_short_nav": "मेरे बारे में",
+                "title_long_prefix": "नमस्ते...",
+                "title_long": "मैं {{उत्कर्ष कुमार!}} हूँ"
+            },
+            "sa": {
+                "title_short": "स्वागतम्!",
+                "title_short_nav": "मम विषये",
+                "title_long_prefix": "नमस्ते...",
+                "title_long": "अहं {{उत्कर्षः कुमारः!}} अस्मि"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "BIHAR – IN",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "utkarsh.kumar@dev.com",
+                    "link": {"href": "mailto:utkarshkumar26102004@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@utkarshkumar",
+                    "link": {"href": "https://github.com/uk2610", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "hi": {"title": "{{थोड़ा सा}} मेरे बारे में..."},
+                "sa": {"title": "{{अल्पम्}} मम विषये..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a {{Java}} developer with [[over three Year]] of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs, whether it's building scalable APIs, optimizing system performance, or contributing to full-stack solutions.</p><p>I look forward to collaborating [[with you!]]</p>"
+                        },
+                
+                        "hi": {
+                            "text": "<p>मैं [[तीन साल से अधिक]] अनुभव वाला एक {{Java}} डेवलपर हूँ, जो बैकएंड डेवलपमेंट में विशेषज्ञता रखता है और कुछ फ्रंटएंड कार्य भी करता है। मेरे पास प्रोडक्शन वातावरण में C++, C#, Go, और Python के साथ व्यावहारिक अनुभव भी है।</p><p>यह विविध पृष्ठभूमि मुझे परियोजना की विस्तृत श्रृंखला की आवश्यकताओं के अनुकूल होने की लचीलापन देती है, चाहे वह स्केलेबल APIs बनाना हो, सिस्टम प्रदर्शन को अनुकूलित करना हो, या फुल-स्टैक समाधानों में योगदान देना हो।</p><p>मैं [[आपके साथ सहयोग]] करने की प्रतीक्षा कर रहा हूँ!</p>"
+                        },
+                        "sa": {
+                            "text": "<p>अहं [[3 वर्षीयः]] {{Java}} विकासकः अस्मि, पृष्ठभागविकासे विशेषज्ञः अस्मि तथा च किञ्चित् अग्रभागं कार्यं करोमि। मम C++, C#, Go, Python इत्यनेन सह उत्पादनवातावरणेषु अनुभवः अस्ति।</p><p>मम विविधपृष्ठभूमिः अस्ति: मम परियोजनानां विस्तृतश्रेणी अस्ति: अहं मम ग्राहकानाम् आवश्यकतानुसारं लचीलाः अनुकूलः च अस्मि, तथा च अहं स्केलयोग्य-एपिआइ-निर्माणं कर्तुं, अनुकूलित-रूपरेखां कार्यान्वितुं, प्रदातुं च समर्थः अस्मि full-stack solutions.</p><p>अहं [[अन्यैः सह सहकारिणी]]!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "Client {{testimonials}}"},
+                "hi": {"title": "ग्राहक {{प्रशंसापत्र}}"},
+                "sa": {"title": "ग्राहकाणां {{प्रशंसापत्राणि}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Anita Bath",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-female-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "CEO at [[SalesForce]]",
+                            "text": "Working with Utkarsh was a truly [[transformative experience]]. His outstanding programming skills and collaborative spirit not only elevated the quality of our project but also brought a renewed sense of motivation and purpose to us."
+                        },
+                        "hi": {
+                            "title": "[[SalesForce]] में सीईओ",
+                            "text": "उत्कर्ष के साथ काम करना एक वास्तव में [[रूपांतरकारी अनुभव]] था। उनके उत्कृष्ट प्रोग्रामिंग कौशल और सहयोगी भावना ने न केवल हमारी परियोजना की गुणवत्ता को ऊपर उठाया बल्कि हमें प्रेरणा और उद्देश्य की नई भावना भी दी।"
+                        },
+                        "sa": {
+                            "title": "[[SalesForce]] इत्यस्मिन् CEO",
+                            "text": "उत्कर्षेण सह कार्यं वास्तविकं [[रूपान्तरकारि अनुभवम्]] आसीत्। तस्य उत्कृष्टाः प्रोग्रामिंगकौशलाः सहकारिभावः च न केवल अस्माकं प्रकल्पस्य गुणवत्ताम् उन्नीतवन्तः अपितु अस्माकं प्रेरणायाः उद्देश्यस्य च नूतनां भावनाम् आनिन्युः।"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Lou Natic",
+                    "link": {"href": "https://github.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Lead Developer at [[GitHub]]",
+                            "text": "Having Utkarsh on our team was an invaluable asset. His [[deep programming insights and mentorship]] not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                        },
+                        "hi": {
+                            "title": "[[GitHub]] में लीड डेवलपर",
+                            "text": "उत्कर्ष को हमारी टीम में होना एक अमूल्य संपत्ति था। उनकी [[गहरी प्रोग्रामिंग अंतर्दृष्टि और मेंटरशिप]] ने न केवल हमारी परियोजनाओं को ऊपर उठाया बल्कि हमें हर चुनौती का सामना आत्मविश्वास और रचनात्मकता के साथ करने के लिए सशक्त भी किया।"
+                        },
+                        "sa": {
+                            "title": "[[GitHub]] इत्यस्मिन् मुख्यविकासकः",
+                            "text": "उत्कर्षः अस्माकं टीमे आसीत् इति अमूल्यं सम्पत्तिः आसीत्। तस्य [[गभीराः प्रोग्रामिंगदृष्टिपाताः मार्गदर्शनं च]] न केवल अस्माकं प्रकल्पान् उन्नीतवन्तः अपितु अस्मान् प्रत्येकाम् आव्हानाम् आत्मविश्वासेन सर्जनात्मकतया च सामना कर्तुं सशक्तान् अपि अकुर्वन्।"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Paige Turner",
+                    "link": {"href": "", "tooltipString": ""},
+                    "img": "images/pictures/testimonial-person-female-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Managing Director at [[Dingga]]",
+                            "text": "Collaborating with Utkarsh was a true [[game changer]] for our entire development process. His [[deep technical expertise]], creative problem-solving, and proactive mindset were absolutely invaluable."
+                        },
+                        "hi": {
+                            "title": "[[Dingga]] में प्रबंध निदेशक",
+                            "text": "उत्कर्ष के साथ सहयोग करना हमारी संपूर्ण विकास प्रक्रिया के लिए एक वास्तविक [[गेम चेंजर]] था। उनकी [[गहरी तकनीकी विशेषज्ञता]], रचनात्मक समस्या-समाधान और सक्रिय मानसिकता नितांत अमूल्य थीं।"
+                        },
+                        "sa": {
+                            "title": "[[Dingga]] इत्यस्मिन् प्रबन्धनिदेशकः",
+                            "text": "उत्कर्षेण सह सहकार्यं अस्माकं सम्पूर्णविकासप्रक्रियायाः कृते वास्तविकं [[गेम चेंजर]] आसीत्। तस्य [[गभीरा तकनीकीविशेषज्ञता]], सर्जनात्मकसमस्यासमाधानं सक्रियमानसिकता च नितराम् अमूल्याः आसन्।"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Chris P. Bacon",
+                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Creative Director at [[Dribbble]]",
+                            "text": "Utkarsh Kumar's [[attention to detail]] and his [[innovative thinking]] brought a fresh perspective to our whole design process! Simply amazing!"
+                        },
+                        "hi": {
+                            "title": "[[Dribbble]] में क्रिएटिव डायरेक्टर",
+                            "text": "उत्कर्ष कुमार की [[विस्तार पर ध्यान]] और उनकी [[नवीन सोच]] ने हमारे संपूर्ण डिजाइन प्रक्रिया में एक ताज़ा परिप्रेक्ष्य लाया! बस अद्भुत!"
+                        },
+                        "sa": {
+                            "title": "[[Dribbble]] इत्यस्मिन् सर्जनात्मकनिर्देशकः",
+                            "text": "उत्कर्षकुमारस्य [[विस्तारे ध्यानम्]] तस्य [[नवीनचिन्तनं च]] अस्माकं सम्पूर्णरचनाप्रक्रियायाम् एकं ताजापरिप्रेक्ष्यम् आनिन्यताम्! केवलम् आश्चर्यकरम्!"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "hi": {"title": "व्यक्तिगत {{रुचियाँ}}"},
+                "sa": {"title": "व्यक्तिगताः {{रुचयः}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-video",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{AI}} video editing",
+                            "text": "Learning to use AI tools to enhance my videos."
+                        },
+                        "hi": {
+                            "title": "{{AI}} वीडियो संपादन",
+                            "text": "अपने वीडियो को बेहतर बनाने के लिए AI टूल्स का उपयोग करना सीख रहा हूँ।"
+                        },
+                        "sa": {
+                            "title": "{{AI}} वीडियोसम्पादनम्",
+                            "text": "मम वीडियोनाम् उन्नयनाय AI साधनानि उपयोक्तुं शिक्षमाणः।"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Arts}} & Illustration",
+                            "text": "Practicing digital art and exploring new styles."
+                        },
+                        "hi": {
+                            "title": "{{कला}} और चित्रण",
+                            "text": "डिजिटल कला का अभ्यास करना और नई शैलियों की खोज करना।"
+                        },
+                        "sa": {
+                            "title": "{{कलाः}} चित्रणं च",
+                            "text": "डिजिटलकलायाः अभ्यासं कुर्वन् नूतनशैलीः अन्वेषयन् च।"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Investing}} & Finance",
+                            "text": "Learning the basics of stocks and personal finance."
+                        },
+                        "hi": {
+                            "title": "{{निवेश}} और वित्त",
+                            "text": "शेयरों और व्यक्तिगत वित्त की मूल बातें सीखना।"
+                        },
+                        "sa": {
+                            "title": "{{निवेशः}} वित्तं च",
+                            "text": "शेयराणाम् व्यक्तिगतवित्तस्य च मूलतत्त्वानि शिक्षमाणः।"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{UX}} design",
+                            "text": "Studying user experience principles."
+                        },
+                        "hi": {
+                            "title": "{{UX}} डिजाइन",
+                            "text": "उपयोगकर्ता अनुभव सिद्धांतों का अध्ययन करना।"
+                        },
+                        "sa": {
+                            "title": "{{UX}} रचना",
+                            "text": "उपयोक्तानुभवसिद्धान्तान् अधीयानः।"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-camera-retro",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Photography}} & Photoshop",
+                            "text": "Enhancing photos through creative editing techniques."
+                        },
+                        "hi": {
+                            "title": "{{फोटोग्राफी}} और फोटोशॉप",
+                            "text": "रचनात्मक संपादन तकनीकों के माध्यम से तस्वीरों को बेहतर बनाना।"
+                        },
+                        "sa": {
+                            "title": "{{छायाचित्रकला}} फोटोशॉप च",
+                            "text": "सर्जनात्मकसम्पादनतकनीकिभिः मार्गैः छायाचित्राणि उन्नयन्।"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-drum-steelpan",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{drums}}",
+                            "text": "Exploring different genres and improving my skills."
+                        },
+                        "hi": {
+                            "title": "{{ड्रम}} बजाना",
+                            "text": "विभिन्न शैलियों की खोज करना और अपने कौशल में सुधार करना।"
+                        },
+                        "sa": {
+                            "title": "{{ड्रम}} वादनम्",
+                            "text": "विविधशैलीः अन्वेषयन् मम कौशलानि उन्नयन् च।"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

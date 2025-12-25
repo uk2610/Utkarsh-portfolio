@@ -1,0 +1,194 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            },
+            "hi": {
+                "title_short": "शिक्षा",
+                "title_short_nav": "शिक्षा",
+                "title_long_prefix": "यह है मेरी",
+                "title_long": "{{शैक्षिक}} पृष्ठभूमि"
+            },
+            "sa": {
+                "title_short": "शिक्षा",
+                "title_short_nav": "शिक्षा",
+                "title_long_prefix": "इदं अस्ति मम",
+                "title_long": "{{शैक्षिकी}} पृष्ठभूमिः"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2022, "month": 8},
+                    "dateEnd": {"year": 2026, "month": 6, "now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Bachelor}} of Technology in Computer Science",
+                            "province": "Gurugram",
+                            "country": "Haryana",
+                            "institution": "Maharishi Dayanand University",
+                            "text": "Currently pursuing B.Tech in Computer Science and Engineering. Gaining comprehensive knowledge in software development, algorithms, data structures, and modern computing technologies. Actively participating in coding competitions and technical projects.",
+                            "list": [
+                                "Specialization in Computer Science & Engineering",
+                                "Focus on software development and algorithms",
+                                "Participating in coding competitions",
+                                "Working on technical projects"
+                            ],
+                            "tags": ["CSE", "Programming", "Algorithms", "Software Development"]
+                        },
+                        "hi": {
+                            "title": "कंप्यूटर विज्ञान में {{स्नातक}} प्रौद्योगिकी",
+                            "province": "गुरुग्राम",
+                            "country": "हरियाणा",
+                            "institution": "महर्षि दयानन्द विश्वविद्यालय",
+                            "text": "वर्तमान में कंप्यूटर विज्ञान और इंजीनियरिंग में बी.टेक कर रहा हूँ। सॉफ्टवेयर विकास, एल्गोरिदम, डेटा संरचनाओं और आधुनिक कंप्यूटिंग प्रौद्योगिकियों में व्यापक ज्ञान प्राप्त कर रहा हूँ। कोडिंग प्रतियोगिताओं और तकनीकी परियोजनाओं में सक्रिय रूप से भाग ले रहा हूँ।",
+                            "list": [
+                                "कंप्यूटर विज्ञान और इंजीनियरिंग में विशेषज्ञता",
+                                "सॉफ्टवेयर विकास और एल्गोरिदम पर ध्यान",
+                                "कोडिंग प्रतियोगिताओं में भागीदारी",
+                                "तकनीकी परियोजनाओं पर कार्य"
+                            ],
+                            "tags": ["कंप्यूटर विज्ञान", "प्रोग्रामिंग", "एल्गोरिदम", "सॉफ्टवेयर विकास"]
+                        },
+                        "sa": {
+                            "title": "संगणकविज्ञाने {{स्नातकः}} प्रौद्योगिकी",
+                            "province": "गुरुग्राम",
+                            "country": "हरियाणा",
+                            "institution": "महर्षिदयानन्दविश्वविद्यालयः",
+                            "text": "वर्तमाने संगणकविज्ञाने अभियान्त्रिकायां च बी.टेक अनुसरन्। सॉफ्टवेयरविकासे, अल्गोरिद्मेषु, डेटासंरचनासु आधुनिकसंगणनप्रौद्योगिकीषु च व्यापकज्ञानं प्राप्नुवन्। कोडिंगप्रतियोगितासु तकनीकीप्रकल्पेषु च सक्रियरूपेण भागं गृह्णन्।",
+                            "list": [
+                                "संगणकविज्ञाने अभियान्त्रिकायां च विशेषज्ञता",
+                                "सॉफ्टवेयरविकासे अल्गोरिद्मेषु च केन्द्रीकरणम्",
+                                "कोडिंगप्रतियोगितासु भागग्रहणम्",
+                                "तकनीकीप्रकल्पेषु कार्यम्"
+                            ],
+                            "tags": ["संगणकविज्ञानम्", "प्रोग्रामिंग", "अल्गोरिद्मानि", "सॉफ्टवेयरविकासः"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-school",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2020, "month": 4},
+                    "dateEnd": {"year": 2022, "month": 3},
+                    "locales": {
+                        "en": {
+                            "title": "{{Intermediate}} Education (Science Stream)",
+                            "province": "Champaran",
+                            "country": "Bihar",
+                            "institution": "S.N.S College",
+                            "text": "Completed Intermediate education with Physics, Chemistry, and Mathematics (PCM). Developed strong foundation in scientific principles and mathematical concepts. Actively participated in science exhibitions and academic competitions.",
+                            "list": [
+                                "Physics, Chemistry, Mathematics (PCM) stream",
+                                "Strong foundation in scientific principles",
+                                "Participated in science exhibitions",
+                                "Academic excellence in mathematics"
+                            ],
+                            "tags": ["PCM", "Science", "Mathematics", "Intermediate"]
+                        },
+                        "hi": {
+                            "title": "{{इंटरमीडिएट}} शिक्षा (विज्ञान वर्ग)",
+                            "province": "चम्पारण",
+                            "country": "बिहार",
+                            "institution": "एस.एन.एस कॉलेज",
+                            "text": "भौतिकी, रसायन विज्ञान और गणित (पीसीएम) के साथ इंटरमीडिएट शिक्षा पूरी की। वैज्ञानिक सिद्धांतों और गणितीय अवधारणाओं में मजबूत नींव विकसित की। विज्ञान प्रदर्शनियों और शैक्षणिक प्रतियोगिताओं में सक्रिय रूप से भाग लिया।",
+                            "list": [
+                                "भौतिकी, रसायन विज्ञान, गणित (पीसीएम) वर्ग",
+                                "वैज्ञानिक सिद्धांतों में मजबूत नींव",
+                                "विज्ञान प्रदर्शनियों में भागीदारी",
+                                "गणित में शैक्षणिक उत्कृष्टता"
+                            ],
+                            "tags": ["पीसीएम", "विज्ञान", "गणित", "इंटरमीडिएट"]
+                        },
+                        "sa": {
+                            "title": "{{मध्यमा}} शिक्षा (विज्ञानप्रवाहः)",
+                            "province": "चम्पारण",
+                            "country": "बिहार",
+                            "institution": "एस.एन.एस महाविद्यालयः",
+                            "text": "भौतिकी, रसायनविज्ञानं, गणितं (पीसीएम) च सह मध्यमाशिक्षां समापितवान्। वैज्ञानिकसिद्धान्तेषु गणितीयसंकल्पनासु च दृढां आधारभूमिं विकसितवान्। विज्ञानप्रदर्शनिषु शैक्षणिकप्रतियोगितासु च सक्रियरूपेण भागं गृहीतवान्।",
+                            "list": [
+                                "भौतिकी, रसायनविज्ञानं, गणितं (पीसीएम) प्रवाहः",
+                                "वैज्ञानिकसिद्धान्तेषु दृढा आधारभूमिः",
+                                "विज्ञानप्रदर्शनिषु भागग्रहणम्",
+                                "गणिते शैक्षणिकोत्कृष्टता"
+                            ],
+                            "tags": ["पीसीएम", "विज्ञानम्", "गणितम्", "मध्यमा"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-school",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2018, "month": 4},
+                    "dateEnd": {"year": 2020, "month": 3},
+                    "locales": {
+                        "en": {
+                            "title": "{{Matriculation}} (CBSE Board)",
+                            "province": "Champaran",
+                            "country": "Bihar",
+                            "institution": "Jeevan International School",
+                            "text": "Completed Matriculation education with excellent academic performance. Developed fundamental skills in mathematics, science, and languages. Active participant in school extracurricular activities and academic events.",
+                            "list": [
+                                "CBSE Board Examination",
+                                "Excellent academic performance",
+                                "Strong foundation in core subjects",
+                                "Active in extracurricular activities"
+                            ],
+                            "tags": ["Matriculation", "CBSE", "School", "Foundation"]
+                        },
+                        "hi": {
+                            "title": "{{मैट्रिक}} (सीबीएसई बोर्ड)",
+                            "province": "चम्पारण",
+                            "country": "बिहार",
+                            "institution": "जीवन इंटरनेशनल स्कूल",
+                            "text": "उत्कृष्ट शैक्षणिक प्रदर्शन के साथ मैट्रिक शिक्षा पूरी की। गणित, विज्ञान और भाषाओं में मौलिक कौशल विकसित किए। स्कूल की पाठ्येतर गतिविधियों और शैक्षणिक कार्यक्रमों में सक्रिय प्रतिभागी।",
+                            "list": [
+                                "सीबीएसई बोर्ड परीक्षा",
+                                "उत्कृष्ट शैक्षणिक प्रदर्शन",
+                                "मुख्य विषयों में मजबूत नींव",
+                                "पाठ्येतर गतिविधियों में सक्रिय"
+                            ],
+                            "tags": ["मैट्रिक", "सीबीएसई", "स्कूल", "आधार"]
+                        },
+                        "sa": {
+                            "title": "{{मैट्रिक}} (सीबीएसई मण्डलम्)",
+                            "province": "चम्पारण",
+                            "country": "बिहार",
+                            "institution": "जीवन आन्तर्राष्ट्रियविद्यालयः",
+                            "text": "उत्कृष्टशैक्षणिकनिष्पत्त्या सह मैट्रिकशिक्षां समापितवान्। गणिते, विज्ञाने, भाषासु च मौलिककौशलानि विकसितवान्। विद्यालयस्य पाठ्येतरकार्यक्रमेषु शैक्षणिककार्यक्रमेषु च सक्रियः प्रतिभागी।",
+                            "list": [
+                                "सीबीएसई मण्डलपरीक्षा",
+                                "उत्कृष्टशैक्षणिकनिष्पत्तिः",
+                                "मुख्यविषयेषु दृढा आधारभूमिः",
+                                "पाठ्येतरकार्यक्रमेषु सक्रियः"
+                            ],
+                            "tags": ["मैट्रिक", "सीबीएसई", "विद्यालयः", "आधारः"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
