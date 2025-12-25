@@ -113,7 +113,7 @@
                     "faIcon": "fa-brands fa-linkedin",
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@utkarshkumar",
-                    "link": {"href": "https://linkedin.com/in/utkarshkumar", "tooltipString": "open_website"},
+                    "link": {"href": "https://linkedin.com/in/Uk2610", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "LinkedIn"},
@@ -141,7 +141,7 @@
                     "faIcon": "fa-brands fa-instagram",
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@codingutkarsh",
-                    "link": {"href": "https://instagram.com/codingutkarsh", "tooltipString": "open_website"},
+                    "link": {"href": "https://instagram.com/Iam__Utkarshsingh", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "Instagram"},
