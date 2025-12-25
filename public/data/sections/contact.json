@@ -141,7 +141,7 @@
                     "faIcon": "fa-brands fa-instagram",
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@codingutkarsh",
-                    "link": {"href": "https://instagram.com/Iam__Utkarshsingh", "tooltipString": "open_website"},
+                    "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "Instagram"},
