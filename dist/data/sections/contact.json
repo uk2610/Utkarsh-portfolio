@@ -127,7 +127,7 @@
                     "faIcon": "fa-brands fa-facebook",
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "Utkarsh Kumar",
-                    "link": {"href": "https://facebook.com/profiles/utkarsh.kumar", "tooltipString": "open_website"},
+                    "link": {"href": "https://facebook.com/", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "Facebook"},
