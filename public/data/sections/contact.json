@@ -155,7 +155,7 @@
                     "faIcon": "fa-brands fa-tiktok",
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@utkarshkumar",
-                    "link": {"href": "https://tiktok.com/@utkarshkumar", "tooltipString": "open_website"},
+                    "link": {"href": "https://tiktok.com", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": { "title": "TikTok" },
