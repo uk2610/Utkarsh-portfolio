@@ -1,0 +1,354 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "hi": {
+                "title_short": "पोर्टफोलियो",
+                "title_short_nav": "पोर्टफोलियो",
+                "title_long_prefix": "एक नज़र डालें",
+                "title_long": "मेरा {{पोर्टफोलियो}}"
+            },
+            "sa": {
+                "title_short": "पोर्टफोलियो",
+                "title_short_nav": "पोर्टफोलियो",
+                "title_long_prefix": "पश्यतु",
+                "title_long": "मम {{पोर्टफोलियो}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilities"
+                },
+                "hi": {
+                    "category_all": "सभी",
+                    "category_apps": "ऐप्स",
+                    "category_web": "वेब",
+                    "category_utilities": "यूटिलिटीज़"
+                },
+                "sa": {
+                    "category_all": "सर्वाणि",
+                    "category_apps": "अनुप्रयोगाणि",
+                    "category_web": "जालम्",
+                    "category_utilities": "उपयोगिताः"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
+                            {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png",
+                            "images/pictures/screenshot-demo-landscape-3.png",
+                            "images/pictures/screenshot-demo-landscape-4.png",
+                            "images/pictures/screenshot-demo-landscape-5.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BrainPulse",
+                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "hi": {
+                            "text": "<b>Node.js</b> के साथ निर्मित एक <b>RESTful API</b> बैकएंड, उच्च-प्रदर्शन डेटा प्रसंस्करण और वास्तविक समय घटना प्रबंधन के लिए डिज़ाइन किया गया।",
+                            "tags": ["API", "REST", "बैकएंड"]
+                        },
+                        "sa": {
+                            "text": "<b>Node.js</b> सह निर्मितः <b>RESTful API</b> पृष्ठभूमिः, उच्चनिष्पत्तिडेटाप्रक्रियायाः वास्तविकसमयघटनाप्रबन्धनस्य च कृते रचितः।",
+                            "tags": ["API", "REST", "पृष्ठभूमिः"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/portfolio-project-logo-7.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-portrait-1.png",
+                            "images/pictures/screenshot-demo-portrait-2.png",
+                            "images/pictures/screenshot-demo-portrait-3.png",
+                            "images/pictures/screenshot-demo-portrait-4.png",
+                            "images/pictures/screenshot-demo-portrait-5.png",
+                            "images/pictures/screenshot-demo-portrait-6.png"
+                        ],
+                        "screenshotsAspectRatio": "9:16"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MailM8",
+                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
+                            "tags": ["Flutter", "E-mail", "Communication"]
+                        },
+                        "hi": {
+                            "text": "<b>Flutter</b> के साथ निर्मित एक क्रॉस-प्लेटफॉर्म ईमेल क्लाइंट, <b>ईमेल प्रबंधन</b> के लिए एक सहज UI के साथ कुशल संचार प्रदान करता है।",
+                            "tags": ["Flutter", "ई-मेल", "संचार"]
+                        },
+                        "sa": {
+                            "text": "<b>Flutter</b> सह निर्मितः क्रॉस-प्लेटफार्म ईमेलक्लाइण्टः, <b>ईमेलप्रबन्धनाय</b> सहजUI सह कार्यकुशलसंचारं यच्छति।",
+                            "tags": ["Flutter", "ई-पत्रम्", "संचारः"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/portfolio-project-logo-6.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png",
+                            "images/pictures/screenshot-demo-landscape-3.png",
+                            "images/pictures/screenshot-demo-landscape-4.png",
+                            "images/pictures/screenshot-demo-landscape-5.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Light Blue",
+                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
+                            "tags": ["React", "Organization", "Notes"]
+                        },
+                        "hi": {
+                            "text": "<b>React Native</b> के साथ विकसित एक पूरी तरह से सुविधा युक्त उत्पादकता ऐप, जो उपयोगकर्ताओं को कई उपकरणों में कार्यों, नोट्स और परियोजनाओं को व्यवस्थित करने में सक्षम बनाता है। यह <b>क्लाउड सिंक</b>, सहज UI और सहयोग सुविधाएँ प्रदान करता है।",
+                            "tags": ["React", "संगठन", "नोट्स"]
+                        },
+                        "sa": {
+                            "text": "<b>React Native</b> सह विकसितः पूर्णलक्षणयुक्तः उत्पादकतानुप्रयोगः, यः उपयोक्तृन् बहुषु उपकरणेषु कार्याणि टिप्पणीः प्रकल्पान् च व्यवस्थितुं सशक्तान् करोति। सः <b>क्लाउड सिंक</b>, सहजUI, सहकार्यलक्षणानि च यच्छति।",
+                            "tags": ["React", "संगठनम्", "टिप्पण्यः"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SmartCash",
+                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
+                            "tags": ["Next.js", "Finance", "Money"]
+                        },
+                        "hi": {
+                            "title": "SmartCash",
+                            "text": "<b>Next.js</b> का उपयोग करके निर्मित एक वित्त वेबसाइट, जो उपयोगकर्ताओं को इंटरैक्टिव चार्ट और अंतर्दृष्टि के साथ <b>बजट ट्रैक</b> करने और अपने पैसे का प्रबंधन करने की अनुमति देती है।",
+                            "tags": ["Next.js", "वित्त", "पैसा"]
+                        },
+                        "sa": {
+                            "title": "SmartCash",
+                            "text": "<b>Next.js</b> उपयुज्य निर्मितः वित्तजालस्थानः, यः उपयोक्तृन् सहभागचार्टैः दृष्टिपातैः च <b>बजेटानि अनुसृत्य</b> तेषां धनं प्रबन्धितुं यच्छति।",
+                            "tags": ["Next.js", "वित्तम्", "धनम्"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/portfolio-project-logo-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Snappy",
+                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
+                            "tags": ["Swift", "Photography", "Camera"]
+                        },
+                        "hi": {
+                            "title": "Snappy",
+                            "text": "iOS और Android के लिए <b>Swift</b> के साथ डिज़ाइन किया गया एक शक्तिशाली फोटोग्राफी ऐप, जिसमें <b>उन्नत कैमरा नियंत्रण</b>, संपादन उपकरण और त्वरित फोटो वृद्धि के लिए AI-संचालित फ़िल्टर हैं।",
+                            "tags": ["Swift", "फोटोग्राफी", "कैमरा"]
+                        },
+                        "sa": {
+                            "title": "Snappy",
+                            "text": "iOS Android च कृते <b>Swift</b> सह रचितः शक्तिशालीः छायाचित्रणानुप्रयोगः, यस्मिन् <b>उन्नतकैमरानियन्त्रणानि</b>, सम्पादनसाधनानि, त्वरितछायाचित्रोन्नयनाय AIचालितफिल्टराणि च सन्ति।",
+                            "tags": ["Swift", "छायाचित्रकला", "कैमरा"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-5.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Sweet Scoops",
+                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
+                            "tags": ["WooCommerce", "Food", "Desserts"]
+                        },
+                        "hi": {
+                            "title": "Sweet Scoops",
+                            "text": "<b>WordPress</b> और WooCommerce के साथ निर्मित एक रेसिपी वेबसाइट, जिसमें <b>मिठाई की रेसिपी</b> का एक समृद्ध संग्रह और एक एकीकृत ई-कॉमर्स प्लेटफॉर्म है।",
+                            "tags": ["WooCommerce", "भोजन", "मिठाई"]
+                        },
+                        "sa": {
+                            "title": "Sweet Scoops",
+                            "text": "<b>WordPress</b> WooCommerce च सह निर्मितः पाकविधिजालस्थानः, यस्मिन् <b>मिष्टान्नपाकविधीनाम्</b> समृद्धः संग्रहः एकीकृत ई-वाणिज्यपट्टं च अस्ति।",
+                            "tags": ["WooCommerce", "भोजनम्", "मिष्टान्नानि"]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "RockVerse",
+                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
+                            "tags": ["Django", "Music", "Rock"]
+                        },
+                        "hi": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b> के साथ विकसित एक गतिशील संगीत और मनोरंजन वेबसाइट, जो रॉक संगीत समाचार, कार्यक्रम और <b>स्ट्रीमिंग सामग्री</b> प्रदर्शित करती है।",
+                            "tags": ["Django", "संगीत", "रॉक"]
+                        },
+                        "sa": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b> सह विकसितः गतिशीलः संगीतमनोरञ्जनजालस्थानः, यः रॉकसंगीतसमाचारान्, कार्यक्रमान्, <b>स्ट्रीमिंगसामग्रीं</b> च प्रदर्शयति।",
+                            "tags": ["Django", "संगीतम्", "रॉक"]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Soccer Analytics",
+                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
+                            "tags": ["AI", "Prediction", "Soccer"]
+                        },
+                        "hi": {
+                            "title": "Soccer Analytics",
+                            "text": "<b>Python</b> और <b>TensorFlow</b> के साथ निर्मित एक AI-संचालित खेल विश्लेषण प्लेटफॉर्म, जो विस्तृत फुटबॉल <b>भविष्यवाणियों</b> और टीम प्रबंधन उपकरण प्रदान करता है।",
+                            "tags": ["AI", "भविष्यवाणी", "फुटबॉल"]
+                        },
+                        "sa": {
+                            "title": "Soccer Analytics",
+                            "text": "<b>Python</b> <b>TensorFlow</b> च सह निर्मितः AIचालितः क्रीडाविश्लेषणपट्टः, यः विस्तृतफुटबॉल <b>भविष्यवाणीः</b> टीमप्रबन्धनसाधनानि च यच्छति।",
+                            "tags": ["AI", "भविष्यवाणी", "फुटबॉल"]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_apps",
+                    "img": "",
+                    "faIcon": "fa-solid fa-truck-fast",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
+                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "QuickDrop",
+                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
+                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
+                        },
+                        "hi": {
+                            "title": "QuickDrop",
+                            "text": "<b>React Native</b> और <b>Node.js बैकएंड</b> के साथ निर्मित एक क्रॉस-प्लेटफॉर्म डिलीवरी ऐप, जिसमें <b>वास्तविक समय ट्रैकिंग</b> और कई प्लेटफॉर्म के साथ निर्बल एकीकरण है।",
+                            "tags": ["React Native", "डिलीवरी", "वास्तविक समय ट्रैकिंग"]
+                        },
+                        "sa": {
+                            "title": "QuickDrop",
+                            "text": "<b>React Native</b> <b>Node.js पृष्ठभूमिः</b> च सह निर्मितः क्रॉस-प्लेटफार्मप्रदानानुप्रयोगः, यस्मिन् <b>वास्तविकसमयअनुसरणम्</b> बहुपट्टैः सह निर्बलं समाकलनं च अस्ति।",
+                            "tags": ["React Native", "प्रदानम्", "वास्तविकसमयअनुसरणम्"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

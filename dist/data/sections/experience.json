@@ -1,0 +1,160 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "My Professional",
+                "title_long": "{{Work}} Journey"
+            },
+            "hi": {
+                "title_short": "अनुभव",
+                "title_short_nav": "अनुभव",
+                "title_long_prefix": "मेरी पेशेवर",
+                "title_long": "{{कार्य}} यात्रा"
+            },
+            "sa": {
+                "title_short": "अनुभवः",
+                "title_short_nav": "अनुभवः",
+                "title_long_prefix": "मम व्यावसायिका",
+                "title_long": "{{कार्य}} यात्रा"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/timeline-place-platinum-software.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "#2E7D32", "fill": "#FFFFFF"},
+                    "dateStart": {"year": 2024, "month": 5},
+                    "dateEnd": {"year": 2024, "month": 8},
+                    "locales": {
+                        "en": {
+                            "title": "{{Software Developer}} Intern",
+                            "province": "Champaran",
+                            "country": "Bihar, India",
+                            "institution": "Platinum Software Solutions",
+                            "text": "Completed an intensive 3-month internship where I contributed to full-stack development projects, gaining hands-on experience in real-world software development lifecycle. My primary responsibilities included:",
+                            "list": [
+                                "Developed responsive web applications using modern frontend frameworks",
+                                "Implemented RESTful APIs with proper authentication and authorization",
+                                "Collaborated with senior developers on agile development methodologies",
+                                "Participated in code reviews and contributed to maintaining code quality standards",
+                                "Worked on database design and optimization for better application performance",
+                                "Assisted in debugging and troubleshooting production issues",
+                                "Documented technical specifications and user manuals for developed features"
+                            ],
+                            "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "Node.js", "MongoDB", "Git", "REST APIs", "Bootstrap", "Agile Methodology"]
+                        },
+                        "hi": {
+                            "title": "{{सॉफ्टवेयर डेवलपर}} इंटर्न",
+                            "province": "चंपारण",
+                            "country": "बिहार, भारत",
+                            "institution": "प्लैटिनम सॉफ्टवेयर सोल्यूशंस",
+                            "text": "एक गहन 3-माह की इंटर्नशिप पूरी की जहाँ मैंने फुल-स्टैक डेवलपमेंट प्रोजेक्ट्स में योगदान दिया, वास्तविक दुनिया के सॉफ्टवेयर डेवलपमेंट लाइफसाइकिल में हाथों-हाथ अनुभव प्राप्त किया। मेरी प्राथमिक जिम्मेदारियाँ शामिल थीं:",
+                            "list": [
+                                "आधुनिक फ्रंटएंड फ्रेमवर्क का उपयोग करके रिस्पॉन्सिव वेब एप्लिकेशन विकसित किए",
+                                "उचित प्रमाणीकरण और प्राधिकरण के साथ RESTful APIs कार्यान्वित किए",
+                                "एजाइल डेवलपमेंट मेथडोलॉजी पर वरिष्ठ डेवलपर्स के साथ सहयोग किया",
+                                "कोड रिव्यू में भाग लिया और कोड गुणवत्ता मानकों को बनाए रखने में योगदान दिया",
+                                "बेहतर एप्लिकेशन प्रदर्शन के लिए डेटाबेस डिजाइन और ऑप्टिमाइजेशन पर काम किया",
+                                "डीबगिंग और प्रोडक्शन समस्याओं के निवारण में सहायता की",
+                                "विकसित फीचर्स के लिए तकनीकी विशिष्टताएँ और उपयोगकर्ता मैनुअल दस्तावेजित किए"
+                            ],
+                            "tags": ["HTML5", "CSS3", "जावास्क्रिप्ट", "React.js", "Node.js", "MongoDB", "Git", "REST APIs", "बूटस्ट्रैप", "एजाइल मेथडोलॉजी"]
+                        },
+                        "sa": {
+                            "title": "{{सॉफ्टवेयर विकासकः}} प्रशिक्षार्थी",
+                            "province": "चम्पारण",
+                            "country": "बिहार, भारत",
+                            "institution": "प्लैटिनम सॉफ्टवेयर समाधानानि",
+                            "text": "तीनमासिकं गहनं प्रशिक्षणं समाप्य, यत्र अहं पूर्णस्टैकविकासप्रकल्पेषु योगदानं दत्तवान्, वास्तविकसॉफ्टवेयरविकासजीवनचक्रे प्रत्यक्षानुभवं च प्राप्तवान्। मम प्राथमिकदायित्वानि आसन्:",
+                            "list": [
+                                "आधुनिकैः अग्रभूमिसंरचनाप्रयोगैः प्रतिसादीजालानुप्रयोगान् विकसितवान्",
+                                "उचितप्रमाणीकरणाधिकाराभ्यां सह RESTful APIs कार्यान्वितवान्",
+                                "कुशलविकासपद्धतिषु वरिष्ठविकासकैः सह सहयोगं कृतवान्",
+                                "कोडपुनरीक्षणे भागं गृहीत्वा कोडगुणवत्तामानकानां संरक्षणे योगदानं दत्तवान्",
+                                "उत्कृष्टानुप्रयोगनिष्पत्तये डेटाबेसरचनाअनुकूलने च कार्यं कृतवान्",
+                                "दोषनिवारणे उत्पादनसमस्यानिवारणे च सहायतां कृतवान्",
+                                "विकसितविशेषतानां तकनीकिविशिष्टताः उपयोक्तृनिर्देशिकाः च लेखितवान्"
+                            ],
+                            "tags": ["HTML5", "CSS3", "जावास्क्रिप्ट", "React.js", "Node.js", "MongoDB", "Git", "REST APIs", "बूटस्ट्रैप", "कुशलपद्धतिः"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "#1565C0", "fill": "#FFFFFF"},
+                    "dateStart": {"year": 2023, "month": 1},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Student Developer}} & Learner",
+                            "province": "",
+                            "country": "Academic Projects",
+                            "institution": "Self-Directed Learning",
+                            "text": "Continuously enhancing my technical skills through academic projects, online courses, and personal initiatives. This ongoing learning phase includes:",
+                            "list": [
+                                "Building multiple full-stack applications to solidify understanding of web development concepts",
+                                "Contributing to open-source projects on GitHub to understand collaborative development workflows",
+                                "Completing advanced courses in Data Structures, Algorithms, and Database Management Systems",
+                                "Developing mobile applications using cross-platform frameworks",
+                                "Participating in coding competitions and hackathons to solve real-world problems",
+                                "Learning cloud technologies and deployment strategies for modern applications",
+                                "Exploring emerging technologies like AI/ML integration in web applications"
+                            ],
+                            "tags": ["Python", "Java", "DSA", "MySQL", "Firebase", "AWS Basics", "React Native", "GitHub", "Problem Solving", "System Design"]
+                        },
+                        "hi": {
+                            "title": "{{छात्र डेवलपर}} एवं शिक्षार्थी",
+                            "province": "",
+                            "country": "शैक्षणिक प्रोजेक्ट्स",
+                            "institution": "स्व-निर्देशित शिक्षण",
+                            "text": "शैक्षणिक प्रोजेक्ट्स, ऑनलाइन कोर्सेज और व्यक्तिगत पहलों के माध्यम से लगातार अपने तकनीकी कौशल को बढ़ा रहा हूँ। इस चल रहे सीखने के चरण में शामिल है:",
+                            "list": [
+                                "वेब डेवलपमेंट अवधारणाओं की समझ को मजबूत करने के लिए कई फुल-स्टैक एप्लिकेशन बनाना",
+                                "सहयोगात्मक डेवलपमेंट वर्कफ़्लो को समझने के लिए GitHub पर ओपन-सोर्स प्रोजेक्ट्स में योगदान देना",
+                                "डेटा स्ट्रक्चर्स, एल्गोरिदम और डेटाबेस मैनेजमेंट सिस्टम में उन्नत पाठ्यक्रम पूरे करना",
+                                "क्रॉस-प्लेटफ़ॉर्म फ्रेमवर्क का उपयोग करके मोबाइल एप्लिकेशन विकसित करना",
+                                "वास्तविक दुनिया की समस्याओं को हल करने के लिए कोडिंग प्रतियोगिताओं और हैकाथॉन में भाग लेना",
+                                "आधुनिक एप्लिकेशन के लिए क्लाउड टेक्नोलॉजी और डिप्लॉयमेंट रणनीतियाँ सीखना",
+                                "वेब एप्लिकेशन में AI/ML एकीकरण जैसी उभरती प्रौद्योगिकियों की खोज करना"
+                            ],
+                            "tags": ["पायथन", "जावा", "DSA", "MySQL", "फायरबेस", "AWS मूल बातें", "React Native", "GitHub", "समस्या समाधान", "सिस्टम डिजाइन"]
+                        },
+                        "sa": {
+                            "title": "{{छात्रविकासकः}} शिक्षार्थी च",
+                            "province": "",
+                            "country": "शैक्षणिकप्रकल्पाः",
+                            "institution": "स्वनिर्देशितशिक्षणम्",
+                            "text": "शैक्षणिकप्रकल्पैः, अन्तर्जालपाठ्यक्रमैः, व्यक्तिगतपहलाभिश्च सततं मम तकनीकिकौशलं वर्धयन्। एतत् सततशिक्षणावस्थायां समाविष्टाः:",
+                            "list": [
+                                "जालविकाससंकल्पनाज्ञानं दृढीकर्तुं बहून् पूर्णस्टैकानुप्रयोगान् निर्माय",
+                                "सहयोगिविकासकार्यप्रवाहं बोधितुं GitHub इत्यस्मिन् मुक्तस्रोतप्रकल्पेषु योगदानं दत्त्वा",
+                                "डेटासंरचनाः, अल्गोरिद्माः, डेटाबेसप्रबन्धनतन्त्राणि इत्यादिषु उन्नतपाठ्यक्रमान् समाप्य",
+                                "क्रॉस-प्लेटफॉर्मसंरचनाः उपयुज्य चलदूरभाषानुप्रयोगान् विकसयन्",
+                                "वास्तविकविश्वसमस्याः समाधातुं कोडिंगप्रतियोगिताः हैकाथॉनाः च प्रतिभागित्वा",
+                                "आधुनिकानुप्रयोगानां कृते क्लाउडतकनीकी प्रसारणरणनीतयः च अधिगम्य",
+                                "जालानुप्रयोगेषु AI/ML समाकलनम् इवोदयमानतकनीकीः अन्विष्य"
+                            ],
+                            "tags": ["पायथन", "जावा", "DSA", "MySQL", "फायरबेस", "AWS मूलतत्त्वानि", "React Native", "GitHub", "समस्यासमाधानम्", "तन्त्ररचना"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
