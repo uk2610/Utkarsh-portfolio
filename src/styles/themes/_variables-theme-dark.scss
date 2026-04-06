@@ -31,29 +31,29 @@
 
 @import "theme-variables-builder";
 
-$primary: #9dff8e;
-$secondary: #a4afb5;
-$dark: #161616;
-$danger: #fdd2d2;
-$muted: #6c757d;
+$primary: #D4AF37;
+$secondary: #AFA79A;
+$dark: #12121F;
+$danger: #E5533D;
+$muted: #7A756B;
 
-$base-bg: #0c0c0c;
-$base-bg-light: #181818;
-$base-bg-dark: #090909;
+$base-bg: #050507;
+$base-bg-light: #0D0D17;
+$base-bg-dark: #030305;
 
-$texts: #EEEEEE;
-$texts-inverted: #111111;
+$texts: #F5E9D6;
+$texts-inverted: #1C1A18;
 
-$base-container-bg: #191919;
-$base-popover-bg: #0e0e0e;
-$base-boards: lighten($base-container-bg, 3%);
+$base-container-bg: #0D0D17;
+$base-popover-bg: #080810;
+$base-boards: #12121F;
 $base-info-badges: lighten($dark, 3%);
 $empty: darken($base-container-bg, 3%);
-$empty-accent: #131313;
+$empty-accent: #050507;
 
-$borders: #1D1D1D;
-$scrollbar-track: #101010;
-$scrollbar-thumb: #32343a;
+$borders: #1F1F2E;
+$scrollbar-track: #0D0D17;
+$scrollbar-thumb: #2A2A42;
 
 :root {
     @include build-theme(
