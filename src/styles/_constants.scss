@@ -14,9 +14,9 @@ $font-family-base: 'Saira', sans-serif;
 $headings-font-family: 'Orbitron', sans-serif;
 
 /** Static Colors **/
-$loader-background: #111111;
-$loader-contrast: #FFFFFF;
-$primary: #36ad59;
+$loader-background: #050507;
+$loader-contrast: #F5E9D6;
+$primary: #D4AF37;
 
 /** Z-Indexing **/
 $z-index-background: -1;
@@ -34,9 +34,25 @@ $z-index-activity-spinner: 1240;
 $z-index-animated-cursor: 1250;
 $z-index-loader: 1260;
 
+/** Border Radius **/
+$radius-sm: 6px;
+$radius-md: 10px;
+$radius-lg: 16px;
+
+/** Spacing **/
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+/** Transitions **/
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;
+
 /** Layout Constraints - General **/
 $max-breakpoint-for-tabbed-interface: md;
-$standard-border-radius: 10px;
+$standard-border-radius: $radius-md;
 $default-card-spacing: 0.5rem;
 $default-card-spacing-mobile: 5px;
 $timeline-merge-mode-breakpoint: sm;
