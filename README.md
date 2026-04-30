@@ -6,8 +6,7 @@ A modern, responsive, and multilingual **developer portfolio** built using **Rea
 
 ## 🚀 Live Demo
 
-👉 **Live Website:**  
-https://<your-username>.github.io/<your-repo-name>/
+
 
 *(Replace with your actual GitHub Pages URL after deployment)*
 
