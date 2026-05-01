@@ -1,0 +1,75 @@
+/**
+ * @author Utkarsh Kumar
+ * @description App general layout styles.
+ */
+
+body {
+    overflow-x: hidden!important;
+    touch-action: manipulation;
+    width: 100%;
+    background-color: $loader-background;
+    scroll-behavior: smooth;
+
+    @include media-breakpoint-up($max-breakpoint-for-tabbed-interface) {
+        position: fixed!important;
+        overflow-y: hidden!important;
+    }
+}
+
+body.body-theme {
+    background-color: var(--theme-background)!important;
+    background-image:
+        radial-gradient(1000px circle at 18% 12%, rgba(156, 251, 123, 0.10), transparent 44%),
+        radial-gradient(900px circle at 82% 18%, rgba(255, 255, 255, 0.032), transparent 50%),
+        radial-gradient(760px circle at 52% 100%, rgba(156, 251, 123, 0.05), transparent 40%),
+        linear-gradient(180deg, var(--theme-background), var(--theme-background-contrast-dark));
+    background-attachment: fixed;
+}
+
+body.body-android {
+    @include media-breakpoint-up($max-breakpoint-for-tabbed-interface) {
+        position: relative!important;
+        overflow-y: auto!important;
+    }
+}
+
+/** ------------ SELECTION STYLES ------------ **/
+::-moz-selection {
+    color: var(--theme-texts-inv);
+    background: var(--theme-primary);
+}
+
+::selection {
+    color: var(--theme-texts-inv);
+    background: var(--theme-primary);
+}
+
+/** ------------ SCROLLBAR STYLES ------------ **/
+.scrollbar-decorator {
+    scroll-behavior: smooth;
+    ::-webkit-scrollbar { max-width: 4px; }
+    ::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 4px var(--theme-scrollbar-track); }
+    ::-webkit-scrollbar-thumb { background-color: var(--theme-scrollbar-thumb)!important; }
+}
+
+/** ------------ PLACEHOLDER STYLES ------------ **/
+::-webkit-input-placeholder {
+    color: var(--theme-opacity-border-accent);
+}
+*:-moz-placeholder {
+    color: var(--theme-opacity-border-accent)!important;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: var(--theme-opacity-border-accent)!important;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    color: var(--theme-opacity-border-accent)!important;
+}
+*::-ms-input-placeholder {
+    color: var(--theme-opacity-border-accent)!important;
+}
+*::placeholder {
+    color: var(--theme-opacity-border-accent)!important;
+}

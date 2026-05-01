@@ -1,0 +1,93 @@
+@import "/src/styles/extend.scss";
+
+div.nav-profile-card {
+    --avatar-size: 118px;
+    --border-size: 4px;
+    --info-margin-top: 10px;
+    --offset-status-circle: 15px;
+    @media(min-height: 760px) {--avatar-size: 126px; --info-margin-top: 11px;}
+    @media(min-height: 800px) {--avatar-size: 132px}
+    @media(max-height: 690px) {--avatar-size: 108px}
+    @media(max-height: 650px) {--avatar-size: 102px}
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent!important;
+    position: relative;
+    margin: 18px 15px 12px;
+
+    &-avatar {
+        width: var(--avatar-size);
+        height: var(--avatar-size);
+        border: none;
+        border-radius: 50%;
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.42);
+    }
+
+    &-status-circle {
+        position: absolute;
+        top: calc(var(--avatar-size) - var(--offset-status-circle));
+        left: calc(50% + var(--avatar-size)/2 - var(--offset-status-circle)*1.2);
+    }
+
+    &-info {
+        margin-top: var(--info-margin-top);
+        margin-bottom: 3px;
+        user-select: none;
+        @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+            margin-top: 14px;
+            margin-bottom: 8px;
+        }
+    }
+
+    h1.nav-profile-card-name {
+        text-align: center;
+
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 4px;
+        font-size: 1.1rem!important;
+        line-height: 1.7rem!important;
+
+        @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+            font-size: 1.5rem!important;
+            margin-bottom: 7px;
+        }
+    }
+
+    h1.nav-profile-card-name-with-audio-button {
+        @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+            margin-left: 65px;
+            margin-right: 65px;
+        }
+    }
+
+    div.nav-profile-card-role {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--theme-secondary);
+        font-size: 0.82rem;
+        min-height: 25px;
+        @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+            font-size: 0.95rem;
+            min-height: 25px;
+        }
+    }
+}
+
+div.nav-profile-card-shrink {
+    --avatar-size: 72px;
+    --border-size: 0px;
+    --offset-status-circle: 12px;
+
+    div.nav-profile-card-avatar {
+        border-radius: 50%!important;
+    }
+
+    div.nav-profile-card-info {
+        display: none;
+    }
+}

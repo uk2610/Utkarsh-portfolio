@@ -1,0 +1,141 @@
+@import "/src/styles/extend.scss";
+
+$column-breakpoint: xl;
+
+div.article-text-items {
+    --row-gap: 20px;
+    --avatar-size: 285px;
+    --spacing: 35px;
+    @include media-breakpoint-down(xxl) {--avatar-size: 270px}
+    @include media-breakpoint-down(xl) {--avatar-size: 200px}
+    @include media-breakpoint-down(lg) {--avatar-size: 180px}
+    @include media-breakpoint-down(md) {--avatar-size: 150px}
+    @include media-breakpoint-down(sm) {--avatar-size: 130px}
+
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+div.article-text-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1.12fr) minmax(260px, 0.88fr);
+    grid-template-areas: "excerpt avatar" "cta cta";
+    gap: 60px;
+    align-items: start;
+    justify-content: space-between;
+
+    margin-top: 0;
+    @include media-breakpoint-up($column-breakpoint) {
+        margin-bottom: calc(var(--row-gap)/2);
+    }
+    &:not(:last-child) {
+        margin-bottom: calc(var(--row-gap)/2);
+    }
+
+    @include media-breakpoint-down($column-breakpoint) {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+div.article-text-avatar-view-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    grid-area: avatar;
+    justify-self: end;
+
+    min-width: var(--avatar-size);
+    min-height: calc(var(--avatar-size)/1.2);
+    width: var(--avatar-size);
+    height: calc(var(--avatar-size)/1.2);
+
+    margin-left: var(--spacing);
+    margin-right: calc(var(--spacing)/4);
+    @include media-breakpoint-down($column-breakpoint) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+div.article-text-avatar-view {
+    height: 100%;
+    width: 100%;
+    background-color: var(--theme-card-background-accent);
+    font-size: calc(var(--avatar-size) / 1.75);
+    border-radius: calc($standard-border-radius * 1.4);
+    border: 1px solid var(--theme-standard-borders);
+    box-shadow: 0 18px 30px rgba(0, 0, 0, 0.28);
+    @include media-breakpoint-down($column-breakpoint) {
+        margin-bottom: calc(var(--spacing)/2);
+    }
+}
+
+div.article-text-excerpt {
+    direction: ltr;
+    width: 100%;
+    color: var(--theme-texts-light);
+    line-height: 1.7;
+    max-width: 590px;
+    text-align: left;
+    grid-area: excerpt;
+
+
+    margin-bottom: 8px;
+    @include media-breakpoint-down(xxl) {
+        margin-bottom: 2px;
+    }
+    @include media-breakpoint-down($column-breakpoint) {
+        margin: 10px 0 0;
+    }
+}
+
+div.article-text-cta-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+    grid-area: cta;
+}
+
+button.article-text-cta-btn {
+    white-space: nowrap;
+    width: fit-content;
+}
+
+div.article-text-item-reverse {
+    direction: ltr;
+    grid-template-areas: "avatar excerpt" "cta cta";
+
+    div.article-text-avatar-view {
+        margin-left: 0;
+    }
+
+    div.article-text-excerpt {
+        margin-left: 0;
+    }
+
+    div.article-text-avatar-view-wrapper {
+        justify-self: start;
+    }
+
+    div.article-text-excerpt {
+        justify-self: start;
+    }
+
+    @include media-breakpoint-down($column-breakpoint) {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "avatar"
+            "excerpt"
+            "cta";
+
+        div.article-text-avatar-view-wrapper,
+        div.article-text-excerpt {
+            justify-self: start;
+        }
+    }
+}

@@ -1,0 +1,345 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Achievements",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "My Academic &",
+                "title_long": "Professional {{Milestones}}"
+            },
+            "hi": {
+                "title_short": "उपलब्धियाँ",
+                "title_short_nav": "उपलब्धियाँ",
+                "title_long_prefix": "मेरी शैक्षणिक व",
+                "title_long": "व्यावसायिक {{मील के पत्थर}}"
+            },
+            "sa": {
+                "title_short": "सिद्धयः",
+                "title_short_nav": "सिद्धयः",
+                "title_long_prefix": "मम शैक्षणिक्यः",
+                "title_long": "व्यावसायिक्यः {{मीलपत्थराः}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications & Courses" },
+                "hi": { "title": "प्रमाणपत्र व पाठ्यक्रम" },
+                "sa": { "title": "प्रमाणपत्राणि पाठ्यक्रमाः च" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "#2E7D32", "fill": "#FFF"},
+                    "date": {"year": 2024, "month": 8},
+                    "link": {"href": "https://www.coursera.org/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full Stack Web Development}}",
+                            "text": "Completed comprehensive course covering HTML5, CSS3, JavaScript, React.js, Node.js, and MongoDB with hands-on projects and assignments"
+                        },
+                        "hi": {
+                            "text": "HTML5, CSS3, JavaScript, React.js, Node.js, और MongoDB को कवर करने वाला व्यापक पाठ्यक्रम पूरा किया, जिसमें हाथों-हाथ प्रोजेक्ट्स और असाइनमेंट्स शामिल थे"
+                        },
+                        "sa": {
+                            "text": "HTML5, CSS3, JavaScript, React.js, Node.js, MongoDB च समाविष्टं व्यापकं पाठ्यक्रमं समाप्तवान्, यस्मिन् प्रत्यक्षप्रकल्पाः कार्याणि च आसन्"
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "#47A248", "fill": "#FFF"},
+                    "date": {"year": 2024, "month": 7},
+                    "link": {"href": "https://www.udemy.com/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Database Management}}",
+                            "text": "Certified in Database Design, SQL Queries, and Database Optimization with practical implementation in MySQL and MongoDB"
+                        },
+                        "hi": {
+                            "text": "डेटाबेस डिजाइन, SQL क्वेरीज़, और MySQL और MongoDB में व्यावहारिक कार्यान्वयन के साथ डेटाबेस ऑप्टिमाइज़ेशन में प्रमाणित"
+                        },
+                        "sa": {
+                            "text": "डेटाबेसरचना, SQL प्रश्नाः, MySQL MongoDB च कृते व्यावहारिककार्यान्वयनेन सह डेटाबेसअनुकूलने प्रमाणितः"
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-git-alt",
+                    "faIconColors": {"bg": "#F05032", "fill": "#FFF"},
+                    "date": {"year": 2024, "month": 6},
+                    "link": {"href": "https://git-scm.com/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Version Control}} Mastery",
+                            "text": "Git and GitHub Certification covering branching strategies, merge conflicts resolution, and collaborative development workflows"
+                        },
+                        "hi": {
+                            "text": "Git और GitHub प्रमाणन जिसमें ब्रांचिंग रणनीतियाँ, मर्ज कॉन्फ्लिक्ट्स रिज़ॉल्यूशन और सहयोगात्मक डेवलपमेंट वर्कफ़्लो शामिल हैं"
+                        },
+                        "sa": {
+                            "text": "Git GitHub प्रमाणनं यत् शाखारणनीतिः, मर्जविरोधसमाधानं, सहकारिविकासकार्यप्रवाहाः च समाविष्टाः"
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-mobile-screen-button",
+                    "faIconColors": {"bg": "#61DAFB", "fill": "#111"},
+                    "date": {"year": 2024, "month": 5},
+                    "link": {"href": "https://reactnative.dev/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{React Native}} Fundamentals",
+                            "text": "Completed course on mobile app development using React Native with focus on cross-platform application development"
+                        },
+                        "hi": {
+                            "text": "React Native का उपयोग करके मोबाइल ऐप डेवलपमेंट पर पाठ्यक्रम पूरा किया, जिसमें क्रॉस-प्लेटफॉर्म एप्लिकेशन डेवलपमेंट पर ध्यान केंद्रित किया गया"
+                        },
+                        "sa": {
+                            "text": "React Native उपयुज्य चलदूरभाषानुप्रयोगविकासपाठ्यक्रयं समाप्तवान्, यत्र क्रॉस-प्लेटफॉर्मानुप्रयोगविकासे केन्द्रीकरणम् आसीत्"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Academic & Competition Awards" },
+                "hi": { "title": "शैक्षणिक व प्रतियोगिता पुरस्कार" },
+                "sa": { "title": "शैक्षणिकाः प्रतियोगितापुरस्काराः च" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2024, "month": 4},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com", "tooltipString": "see_project", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Best Final Year Project}} – Smart Inventory Management System",
+                            "province": "Bihar",
+                            "country": "India",
+                            "institution": "University Department",
+                            "text": "Awarded First Prize for developing a full-stack web application for inventory management using MERN stack. The project featured:",
+                            "list": [
+                                "Real-time inventory tracking and alerts",
+                                "Automated reordering system with supplier integration",
+                                "Barcode scanning functionality using web camera",
+                                "Data analytics dashboard for inventory optimization",
+                                "Mobile-responsive design with PWA capabilities"
+                            ]
+                        },
+                        "hi": {
+                            "title": "{{सर्वोत्तम अंतिम वर्ष परियोजना}} – स्मार्ट इन्वेंटरी प्रबंधन प्रणाली",
+                            "province": "बिहार",
+                            "country": "भारत",
+                            "institution": "विश्वविद्यालय विभाग",
+                            "text": "MERN स्टैक का उपयोग करके इन्वेंटरी प्रबंधन के लिए एक पूर्ण-स्टैक वेब एप्लिकेशन विकसित करने के लिए प्रथम पुरस्कार प्राप्त। परियोजना में शामिल थे:",
+                            "list": [
+                                "वास्तविक समय इन्वेंटरी ट्रैकिंग और अलर्ट्स",
+                                "सप्लायर एकीकरण के साथ स्वचालित पुन: ऑर्डरिंग प्रणाली",
+                                "वेब कैमरा का उपयोग करके बारकोड स्कैनिंग कार्यक्षमता",
+                                "इन्वेंटरी ऑप्टिमाइज़ेशन के लिए डेटा एनालिटिक्स डैशबोर्ड",
+                                "PWA क्षमताओं के साथ मोबाइल-रिस्पॉन्सिव डिज़ाइन"
+                            ]
+                        },
+                        "sa": {
+                            "title": "{{उत्तमः अन्तिमवर्षप्रकल्पः}} – बुद्धिमत्सामग्रीप्रबन्धनतन्त्रम्",
+                            "province": "बिहार",
+                            "country": "भारत",
+                            "institution": "विश्वविद्यालयविभागः",
+                            "text": "MERN स्टैक उपयुज्य सामग्रीप्रबन्धनाय पूर्णस्टैकजालानुप्रयोगं विकसयितुं प्रथमपुरस्कारं प्राप्तवान्। प्रकल्पे समाविष्टाः आसन्:",
+                            "list": [
+                                "वास्तविकसमयसामग्रीअनुसरणं चेतावनीः च",
+                                "सप्लायरसमाकलनेन सह स्वचालितपुनःआदेशतन्त्रम्",
+                                "जालकैमराप्रयोगेण बारकोडस्कैनिंगकार्यक्षमता",
+                                "सामग्रीअनुकूलनाय डेटाविश्लेषणडैशबोर्डः",
+                                "PWA क्षमताभिः सह चलदूरभाष-प्रतिसादीरचना"
+                            ]
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "date": {"year": 2023, "month": 12},
+                    "preview": {
+                        "links": [
+                            {"href": "https://leetcode.com", "tooltipString": "view_profile", "faIcon": "fa-solid fa-code"},
+                            {"href": "https://hackerrank.com", "tooltipString": "view_profile", "faIcon": "fa-brands fa-hackerrank"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Coding Competition Winner}} – State Level Hackathon",
+                            "province": "",
+                            "country": "India",
+                            "institution": "Tech Fest 2023",
+                            "text": "Secured 2nd Position in state-level coding competition for developing an AI-powered educational platform. Key achievements included:",
+                            "list": [
+                                "Developed adaptive learning algorithms for personalized education",
+                                "Implemented real-time progress tracking and analytics",
+                                "Created interactive coding exercises with instant feedback",
+                                "Built collaborative features for peer learning",
+                                "Achieved 95% accuracy in automated code evaluation"
+                            ]
+                        },
+                        "hi": {
+                            "title": "{{कोडिंग प्रतियोगिता विजेता}} – राज्य स्तरीय हैकाथॉन",
+                            "province": "",
+                            "country": "भारत",
+                            "institution": "टेक फेस्ट 2023",
+                            "text": "एक AI-संचालित शैक्षिक प्लेटफॉर्म विकसित करने के लिए राज्य स्तरीय कोडिंग प्रतियोगिता में दूसरा स्थान प्राप्त किया। प्रमुख उपलब्धियों में शामिल थीं:",
+                            "list": [
+                                "व्यक्तिगत शिक्षा के लिए अनुकूली शिक्षण एल्गोरिदम विकसित किए",
+                                "वास्तविक समय प्रगति ट्रैकिंग और एनालिटिक्स कार्यान्वित किए",
+                                "त्वरित प्रतिक्रिया के साथ इंटरैक्टिव कोडिंग अभ्यास बनाए",
+                                "साथी शिक्षण के लिए सहयोगात्मक सुविधाएँ बनाईं",
+                                "स्वचालित कोड मूल्यांकन में 95% सटीकता प्राप्त की"
+                            ]
+                        },
+                        "sa": {
+                            "title": "{{कोडिंगप्रतियोगिताविजेता}} – राज्यस्तरीयः हैकाथॉन्",
+                            "province": "",
+                            "country": "भारत",
+                            "institution": "टेक फेस्ट 2023",
+                            "text": "AIचालितं शैक्षिकपट्टं विकसयितुं राज्यस्तरीयकोडिंगप्रतियोगितायां द्वितीयस्थानं प्राप्तवान्। मुख्यासिद्धयः आसन्:",
+                            "list": [
+                                "व्यक्तिगतशिक्षायै अनुकूलिशिक्षणाल्गोरिद्मान् विकसितवान्",
+                                "वास्तविकसमयप्रगतिअनुसरणं विश्लेषणं च कार्यान्वितवान्",
+                                "त्वरितप्रतिपुष्ट्या सह सहभागिकोडिंगाभ्यासान् निर्माय",
+                                "सहकारिणः शिक्षायै सहकारिलक्षणानि निर्माय",
+                                "स्वचालितकोडमूल्यांकने 95% परिशुद्धतां प्राप्तवान्"
+                            ]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "date": {"year": 2023, "month": 8},
+                    "preview": {
+                        "links": [
+                            {"href": "https://medium.com", "tooltipString": "read_article", "faIcon": "fa-brands fa-medium"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Technical Paper Presentation}} – National Conference",
+                            "province": "Delhi",
+                            "country": "India",
+                            "institution": "Computer Science Conference",
+                            "text": "Received Best Paper Award for presenting research on 'Optimizing Web Application Performance Using Modern Caching Strategies' at national conference"
+                        },
+                        "hi": {
+                            "title": "{{तकनीकी पेपर प्रस्तुति}} – राष्ट्रीय सम्मेलन",
+                            "province": "दिल्ली",
+                            "country": "भारत",
+                            "institution": "कंप्यूटर साइंस सम्मेलन",
+                            "text": "'आधुनिक कैशिंग रणनीतियों का उपयोग करके वेब एप्लिकेशन प्रदर्शन को अनुकूलित करना' पर शोध प्रस्तुत करने के लिए राष्ट्रीय सम्मेलन में सर्वोत्तम पेपर पुरस्कार प्राप्त"
+                        },
+                        "sa": {
+                            "title": "{{तकनीकीपत्रप्रस्तुतिः}} – राष्ट्रीयः सम्मेलनः",
+                            "province": "दिल्ली",
+                            "country": "भारत",
+                            "institution": "संगणकविज्ञानसम्मेलनम्",
+                            "text": "'आधुनिककैशिंगरणनीतीः उपयुज्य जालानुप्रयोगनिष्पत्तिं अनुकूलयन्' इत्यस्मिन् विषये शोधं प्रस्तुत्य राष्ट्रीयसम्मेलने उत्तमपत्रपुरस्कारं प्राप्तवान्"
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "date": {"year": 2024, "month": 3},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com", "tooltipString": "see_repository", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Open Source Contribution}} Recognition",
+                            "province": "",
+                            "country": "Global",
+                            "institution": "GitHub Community",
+                            "text": "Recognized for significant contributions to open-source projects including bug fixes, feature implementations, and documentation improvements",
+                            "list": [
+                                "Contributed to React Native community library",
+                                "Fixed critical bugs in popular npm packages",
+                                "Improved documentation for developer tools",
+                                "Created tutorial videos for complex features",
+                                "Mentored junior developers in open-source contribution"
+                            ]
+                        },
+                        "hi": {
+                            "title": "{{ओपन सोर्स योगदान}} मान्यता",
+                            "province": "",
+                            "country": "वैश्विक",
+                            "institution": "GitHub समुदाय",
+                            "text": "बग फिक्सेस, फीचर इम्प्लीमेंटेशन और डॉक्यूमेंटेशन सुधार सहित ओपन-सोर्स प्रोजेक्ट्स में महत्वपूर्ण योगदान के लिए मान्यता प्राप्त",
+                            "list": [
+                                "React Native कम्युनिटी लाइब्रेरी में योगदान दिया",
+                                "लोकप्रिय npm पैकेजों में महत्वपूर्ण बग्स ठीक किए",
+                                "डेवलपर टूल्स के लिए दस्तावेज़ीकरण में सुधार किया",
+                                "जटिल सुविधाओं के लिए ट्यूटोरियल वीडियो बनाए",
+                                "ओपन-सोर्स योगदान में जूनियर डेवलपर्स को मेंटर किया"
+                            ]
+                        },
+                        "sa": {
+                            "title": "{{मुक्तस्रोतयोगदान}} मान्यता",
+                            "province": "",
+                            "country": "वैश्विकम्",
+                            "institution": "GitHub समुदायः",
+                            "text": "बगसुधाराः, लक्षणकार्यान्वयनं, दस्तावेज़ीकरणसुधाराः च समाविष्ट्य मुक्तस्रोतप्रकल्पेषु महत्त्वपूर्णयोगदानस्य कृते मान्यतां प्राप्तवान्",
+                            "list": [
+                                "React Native समुदायपुस्तकालये योगदानं दत्तवान्",
+                                "लोकप्रियेषु npm पैकेजेषु गुरुतरान् बगान् समाधानं कृतवान्",
+                                "विकासकसाधनानां दस्तावेज़ीकरणम् उन्नतवान्",
+                                "जटिललक्षणानां कृते शिक्षणवीडियोः निर्माय",
+                                "मुक्तस्रोतयोगदाने कनिष्ठविकासकान् मार्गदर्शितवान्"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
