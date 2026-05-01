@@ -7,7 +7,7 @@
     },
 
     "preloaderSettings": {
-        "enabled": true,
+        "enabled": false,
         "title": "React <strong>Portfolio</strong>",
         "subtitle": "by Utkarsh Kumar",
         "logoOffset": {

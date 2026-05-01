@@ -1,7 +1,7 @@
 @import "/src/styles/extend.scss";
 
 nav.nav-sidebar {
-    --width: 262px;
+    --width: 197px;
 
     display: flex;
     z-index: $z-index-sidebar;
@@ -30,7 +30,7 @@ nav.nav-sidebar {
 }
 
 nav.nav-sidebar-shrink {
-    --width: 80px;
+    --width: 60px;
 
     div.nav-sidebar-card-wrapper {
         width: var(--width);
